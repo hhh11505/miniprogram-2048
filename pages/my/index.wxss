@@ -1,0 +1,122 @@
+.button-text {
+  background-color: #fff;
+  font-size: 14px;
+  line-height: unset;
+  padding: unset;
+  text-align: left;
+  color: rgb(136, 134, 134);
+}
+.button-text:after {
+ 
+  border-bottom: 1px solid rgb(136, 134, 134);
+}
+.user {
+  width: 725rpx;
+  background: #fc96ac;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  border-top: 1px solid #fc96ac;
+  border-bottom: 1px solid #fc96ac;
+  box-shadow: 0 2px 5px #fc96ac;
+}
+
+.user .userinfo-avatar{
+  flex: 1;
+  display: inline-block;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 80rpx;
+}
+.user .user-info{
+  flex: 0;
+  text-align: left;
+}
+.user .us
+.user .user-info text{
+  display: block;
+}
+.user .user-info .userinfo-nickname{
+  padding: 8rpx 0 10rpx 0;
+  font-size: 30rpx;
+  color: #444444;
+}
+.user .user-info .edit{
+  font-size: 30rpx;
+  color: #ccc7c7;
+  line-height: 34rpx;
+}
+.button-text {
+  height: 30;
+  background-color: #fff;
+  font-size: 18px;
+  line-height: unset;
+  padding: unset;
+  text-align: unset;
+  color: #770303;
+}
+.button-text:after {
+ 
+  border-bottom: 1px solid #be5a16;
+}
+.header-pic{
+  flex: 1;
+  text-align: left;
+  display:flex;
+  align-items:center;
+  border-right: 1px solid #e9eaec;
+}
+.sh{
+
+  display: inline;
+  padding-top: 30px;
+  padding-right: 30px;
+}
+.header{
+  /* display:flex; */
+  flex:1;
+padding:4px 4px;
+background: #fc96ac;
+
+}
+view.userPic,.userPic>image,.userPic>view{
+  width: 60px;
+  height: 60px;
+  line-height:60px;
+}
+.userPic>image{
+  margin-right: 15rpx;
+}
+.bg-line{
+  height: 4px;
+  background: #adc2ec;
+}
+.my{
+  margin: 15rpx 0 0 0;
+  border-top: solid 1px #ebebeb;
+  border-bottom: solid 2px #ebebeb;
+}
+.my .my-item{
+  width: 750rpx;
+  background: #d4d3cf;
+  padding: 0
+}
+.my .my-item .myitem-icon{
+  flex: 1;
+}
+.my .my-item .myitem-icon image{
+  width: 45rpx;
+  height: 45rpx;
+  padding: 37.5rpx 0;
+}
+.my .my-item .myitem-name{
+  flex: 5;
+  text-align: left;
+  font-size: 34rpx;
+  color: #6d6d6d;
+  line-height: 45rpx;
+  padding: 30rpx 0;
+  border-bottom: solid 1px #ebebeb;
+}
+.my .my-item:last-child .myitem-name{
+  border-bottom: none;
+}

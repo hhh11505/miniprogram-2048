@@ -1,0 +1,4 @@
+/* pages/rule/index.wxss */
+page{
+  background-color: "#FFB6C1";
+}

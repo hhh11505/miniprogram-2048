@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/logs/logs",
+    "pages/index/index",
+    "pages/rule/index",
+   
+    "pages/2048/2048",
+   
+    "pages/rank/index",
+   
+    "pages/my/index",
+    "pages/feedback/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#faf8ee",
+    "navigationBarTitleText": "2048小游戏",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#FFB6C1"
+  },
+  "tabBar": {
+    "selectedColor": "#2db7f5",
+    "color": "#909090",
+    "list": [
+      {
+        "text": "规则",
+        "iconPath": "img/2048rule1.jpg",
+        "selectedIconPath": "img/2048rule.jpg",
+        "pagePath": "pages/rule/index"
+        
+      },
+      {
+        "text": "新游戏",
+        "iconPath": "img/newgame.jpg",
+        "selectedIconPath": "img/newgame-select.jpg",
+        "pagePath": "pages/2048/2048"
+      },
+      {
+        "text": "我的",
+        "iconPath": "img/my.png",
+        "selectedIconPath": "img/my-select.png",
+        "pagePath": "pages/my/index"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

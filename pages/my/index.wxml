@@ -1,0 +1,38 @@
+<!--pages/my/index.wxml-->
+<view class="header">
+  <view class="user flex-wrp">
+    <view class="avatar flex-item">
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    </view>
+    <view class="user-info flex-item">
+      <text class="userinfo-nickname" >{{userInfo.nickName}}</text>
+      <text class="edit" >查看或编辑个人主页</text>
+    </view>
+   
+  </view>
+  
+</view>
+<view class="bg-line"></view>
+<i-cell-group>
+  <i-cell title="最高分" is-link url="/pages/rank/index">
+    <i-icon type="activity" color="#d4d3cf" slot="icon" size='18' />
+  </i-cell>
+  <i-cell title="反馈意见" is-link url="/pages/feedback/index">
+    <i-icon type="service" color="#d4d3cf" slot="icon" size='18' />
+  </i-cell>
+  <i-cell title="关于我们" bind:click="about">
+    <i-icon type="addressbook" color="#d4d3cf" slot="icon" size='18'/>
+  </i-cell>
+</i-cell-group>
+<i-col span="24" i-class="sh">
+      <view class="" style="float:right;margin-top:0px;color:#dddddd">
+        <button class="button-text" open-type="share">
+          <image src="/img/share.png" mode="aspectFit" style="height: 40px;width:40px;"></image>
+          <view>分享</view>
+        </button>
+      </view>
+    </i-col>
+
+
+
+ 
